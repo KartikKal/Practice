@@ -1,10 +1,4 @@
 #include <iostream>
-bool iseven(int a)
-{
-    if (a%2==0)
-    return true;
-    else return false;
-}
 int compare(int a, int b, int c)
 {
     int greater;
@@ -24,8 +18,8 @@ int compare(int a, int b, int c)
 }    
 int main()
 {
-    bool a;
-    a= iseven(7);
+    int a;
+    a= compare(3,5,7);
     std::cout<< a;
     return 0;
 }
